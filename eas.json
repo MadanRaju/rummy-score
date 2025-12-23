@@ -14,6 +14,9 @@
       },
       "ios": {
         "simulator": false
+      },
+      "env": {
+        "NPM_CONFIG_REGISTRY": "https://registry.npmjs.org/"
       }
     },
     "local-apk": {
