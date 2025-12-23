@@ -5,10 +5,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
-    "splash": {
-      "resizeMode": "contain",
-      "backgroundColor": "#121212"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -23,9 +19,6 @@
     "android": {
       "package": "com.rummyscore.app",
       "versionCode": 1,
-      "adaptiveIcon": {
-        "backgroundColor": "#121212"
-      },
       "permissions": []
     },
     "plugins": [
