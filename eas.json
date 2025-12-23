@@ -17,8 +17,7 @@
       },
       "env": {
         "NPM_CONFIG_REGISTRY": "https://registry.npmjs.org/"
-      },
-      "node": "20.18.0"
+      }
     },
     "local-apk": {
       "android": {
