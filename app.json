@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Rummy Score",
+    "slug": "rummy-score",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rummyscore.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This app does not track users across apps or websites."
+      }
+    },
+    "android": {
+      "package": "com.rummyscore.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      },
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "minSdkVersion": 21
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d4aadc23-6807-4ad4-a579-5a8718374a93"
+      }
+    }
+  }
+}
