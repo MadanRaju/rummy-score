@@ -17,6 +17,9 @@
       },
       "env": {
         "NPM_CONFIG_REGISTRY": "https://registry.npmjs.org/"
+      },
+      "hooks": {
+        "prebuild": "npm install"
       }
     },
     "local-apk": {
